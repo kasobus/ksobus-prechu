@@ -1,0 +1,7 @@
+"features":[ 
+		{"img": "circle-03.png",
+			"caption" : "Lorem Ipsum is not simply random text. It has roots in a piece."},
+		{"img": "circle-02.png",
+			"caption" : "Lorem Ipsum is not simply random text. It has roots in a piece."},
+		{"img": "circle-01.png",
+			"caption" : "Lorem Ipsum is not simply random text. It has roots in a piece."} ];

@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ */
+@font-face {
+    font-family: Sogoewp;
+    src: url(../fonts/segoewpn/segoewpn.woff);
+}
+@font-face {
+    font-family: Sogoewp-light;
+    src: url(../fonts/segoewp-light/segoewp-light.woff);
+}
+html {
+	color: #909090;
+}
+h1,h2,h3,h4,h5,nav a {
+	font-family: Sogoewp;
+}
+
+h5 {
+	color:#5094f2;
+}
+p,.lazy-slider h1,.btn {
+	font-family: Sogoewp-light;
+}
+img {
+	max-width:100%;
+}
+footer p {
+	color: #909090;
+}
+ul li {
+	padding-top:10px;
+}
+nav {
+    height: 64px;
+    line-height: 64px;
+}
+nav .tabs {
+position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.nav-wrapper .tabs {
+	width:auto!important;
+}
+.tabs > .tab {
+	width:auto!important;
+}
+.btn {
+	padding:0 1rem;
+}
+.tabs > .tab a,.tabs > .tab a:hover, nav a {
+	color: #6c6c6c;
+background:none;
+	text-transform:none;
+}
+.tabs .indicator,.btn,.btn:hover {
+background-color: #5094f2;
+}
+.brand-logo img {
+    padding: 10px 0;
+}
+
+.slider-bg {
+	background-image:url('../img/bg-header.png');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.slide-caption{
+  min-height: 80px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: none;
+  color:white;
+  font-size: 1rem;
+  letter-spacing:1px;
+  height:85%;
+  width:50%;
+  bottom:0;
+  margin-left:50%;
+  padding:0;
+}
+.slider-bg:after {
+    content: '';
+    position: relative;
+    left: 0;
+    width: 100%;
+	display:block;
+    height: 8px;
+    background: url('../img/zigzag.png') repeat-x;
+}
+.slick-slider {
+    margin-bottom: 0;
+    padding: 30px 0 10px 0;
+}
+.slick-prev, .slick-next {
+    height: auto;
+    margin-bottom: 0;
+    padding: 30px 0 10px 0;
+}
+.slick-prev {
+	    left: -20px;
+}
+.slick-next {
+	    right: -20px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+@media screen and (max-width: 670px) {
+	.slide-caption {
+	    height: auto;
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+		padding-bottom:10px;
+}
+}

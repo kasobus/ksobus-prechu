@@ -1,0 +1,12 @@
+{
+	"features":[ 
+		{"img": "circle-03.png",
+			"title": "Contrary to popular 1",
+			"caption" : "Lorem Ipsum is not simply random text. It is generated from a JSON file."},
+		{"img": "circle-02.png",
+			"title":"Contrary to popular 2",
+			"caption" : "Lorem Ipsum is not simply random text. It is generated from a JSON file."},
+		{"img": "circle-01.png",
+			"title": "Contrary to popular 3",
+			"caption" : "Lorem Ipsum is not simply random text. It is generated from a JSON file."} ]
+}
